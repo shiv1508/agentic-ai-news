@@ -9,8 +9,6 @@ Table of contents
 - [Configuration](#configuration)
 - [Project layout](#project-layout)
 - [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 
 Quick start
 
@@ -64,10 +62,6 @@ Development
 - Edit code under src/.
 - Add unit tests in a tests/ folder and run with pytest or preferred test runner.
 - Use the Streamlit UI to iterate quickly on agent behavior and prompts.
-
-Contributing
-- Open issues for bugs or feature requests.
-- Submit focused pull requests with tests and a short description of changes.
 
 Notes
 - This repository contains example integrations and demo code. Verify API keys and environment setup before running.
