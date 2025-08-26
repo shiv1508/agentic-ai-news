@@ -10,7 +10,7 @@ Table of contents
 - [Project layout](#project-layout)
 - [Development](#development)
 
-Quick start
+## Quick start
 
 Requirements
 - Python 3.10+
@@ -31,21 +31,21 @@ Or run the Streamlit UI directly:
 streamlit run src/langgraphagenticai/ui/streamlitui/loadui.py
 ```
 
-Features
+## Features
 - Graph-based agent composition (GraphBuilder + nodes)
 - Groq LLM wrapper for text generation
 - Search tool integration for news discovery (Tavily)
 - Streamlit UI with configurable options
 - Automatic saving of generated summaries to AINews/ (daily, weekly, monthly)
 
-Configuration
+## Configuration
 
 Environment variables
 - TAVILY_API_KEY — API key for the search tool (if required)
 - GROQ_API_KEY — API key for Groq LLM (if required)
 Set keys in your environment or a secrets manager. Check the LLM and tool wrappers for exact variable names and usage.
 
-UI configuration
+## UI configuration
 - src/langgraphagenticai/ui/uiconfigfile.ini — UI defaults and options
 
 Where to look in code
@@ -58,7 +58,7 @@ Where to look in code
 - src/langgraphagenticai/ui/streamlitui/ — Streamlit UI components
 - AINews/ — generated markdown summaries
 
-Development
+## Development
 - Edit code under src/.
 - Add unit tests in a tests/ folder and run with pytest or preferred test runner.
 - Use the Streamlit UI to iterate quickly on agent behavior and prompts.
