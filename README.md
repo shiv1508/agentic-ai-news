@@ -41,22 +41,22 @@ streamlit run src/langgraphagenticai/ui/streamlitui/loadui.py
 ## Configuration
 
 Environment variables
-- TAVILY_API_KEY — API key for the search tool (if required)
-- GROQ_API_KEY — API key for Groq LLM (if required)
+- TAVILY_API_KEY - API key for the search tool (if required)
+- GROQ_API_KEY - API key for Groq LLM (if required)
 Set keys in your environment or a secrets manager. Check the LLM and tool wrappers for exact variable names and usage.
 
 ## UI configuration
 - src/langgraphagenticai/ui/uiconfigfile.ini — UI defaults and options
 
 Where to look in code
-- app.py — application entry point
-- src/langgraphagenticai/main.py — bootstrap and app loader
-- src/langgraphagenticai/graph/graph_builder.py — wires nodes and tools together
-- src/langgraphagenticai/nodes/ai_news_node.py — fetch, summarize, and save logic
-- src/langgraphagenticai/LLMS/groqllm.py — Groq LLM wrapper
-- src/langgraphagenticai/tools/search_tool.py — search tool integration
-- src/langgraphagenticai/ui/streamlitui/ — Streamlit UI components
-- AINews/ — generated markdown summaries
+- app.py - application entry point
+- src/langgraphagenticai/main.py - bootstrap and app loader
+- src/langgraphagenticai/graph/graph_builder.py - wires nodes and tools together
+- src/langgraphagenticai/nodes/ai_news_node.py - fetch, summarize, and save logic
+- src/langgraphagenticai/LLMS/groqllm.py - Groq LLM wrapper
+- src/langgraphagenticai/tools/search_tool.py - search tool integration
+- src/langgraphagenticai/ui/streamlitui/ - Streamlit UI components
+- AINews/ - generated markdown summaries
 
 ## Development
 - Edit code under src/.
